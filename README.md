@@ -68,7 +68,7 @@ Copy new Zitadel version executable made to the working directory. You can eithe
 cp  /home/zitadel-2.43.8/zitadel /usr/local/bin/zitadel
 ```
 
-Update tables.
+# Update tables
 
 Change directory.
 
