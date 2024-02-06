@@ -65,7 +65,7 @@ systemctl stop zitadel
 Copy new Zitadel version executable made to the working directory. You can either remove the old Zitadel executable or copy over the old one.
 
 ```
-cp  /home/zitadel-2.43.8/zitadel /usr/local/bin/zitadel
+cp  /home/zitadel-2.44.2/zitadel /usr/local/bin/zitadel
 ```
 
 # Update tables
