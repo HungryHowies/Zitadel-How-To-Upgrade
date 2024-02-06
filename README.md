@@ -1,6 +1,4 @@
 # Zitadel-How-To-Upgrade
-####  Not tested or completed ###
-
 
 
 Upgrade Zitadel
