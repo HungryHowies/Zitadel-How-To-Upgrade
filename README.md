@@ -24,6 +24,12 @@ Download the new version.
 wget https://github.com/zitadel/zitadel/archive/refs/tags/v2.44.2.tar.gz
 ```
 
+Unzip Source.
+
+```
+sudo tar -xvf  v2.44.2.tar.gz
+```
+
 Go into Zitadel old version directory.
 
 ```
