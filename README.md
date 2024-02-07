@@ -33,7 +33,7 @@ sudo tar -xvf  v2.44.2.tar.gz
 Go into Zitadel old version directory.
 
 ```
-cd /home/zitadel-2.42.10/
+cd /home/zitadel-2.44.2/
 ```
 
 Depending on what files were modified they need to be copied over to Zitadel current version. Ensure to check new release information before copying over the new files, this could create issues.
