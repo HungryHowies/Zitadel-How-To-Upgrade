@@ -46,7 +46,7 @@ cp console/src/index.html  /home/zitadel-2.44.2/console/src/index.html 
 
 # Edit Makefile
 
-The Makefile should be located in Zitadel's home directory for the new build (/home/zitadel-2.43.8).
+The Makefile should be located in Zitadel's home directory for the new build (/home/zitadel-2.44.2).
 
 ```
 vi /home/zitadel-2.44.2/Makefile
@@ -87,8 +87,16 @@ cd /usr/local/bin
 
 Execute folowwing command. This may take a few minutes.
 
+Execute with the "Steps" file.
+
 ```
 zitadel setup  --init-projections=true   --config defaults.yaml --steps steps.yaml --masterkey "MasterkeyNeedsToHave32Characters"  --tlsMode external
+```
+
+Without the "Steps" file.
+
+```
+zitadel setup  --init-projections=true   --config defaults.yaml  --masterkey "MasterkeyNeedsToHave32Characters"  --tlsMode external
 ```
 
 
