@@ -87,6 +87,8 @@ cd /usr/local/bin
 
 Execute folowwing command. This may take a few minutes.
 
+NOTE: The SETUP command is needed without the --init-projections=true flag, this is prior to Zitadel v2.42.12. 
+
 Execute with the "Steps" file.
 
 ```
