@@ -5,6 +5,7 @@
 
 The following example shows how to upgrade a minor version of Zitadel (i.e, v2.42.10 to v.2.44.2). 
 This instance does have a systemd service created. More information about this setup can be found [here](https://github.com/HungryHowies/How-To-Build-Zitadel-from-Source) 
+If you trying to upgrade from a earlier version  v2.37.x take a look at this section [here](https://github.com/HungryHowies/Zitadel-How-To-Upgrade/edit/main/README.md#upgrade-command-for-versions-237x-thru-244x).
 
 # Upgrade Zitadel
 
@@ -112,8 +113,35 @@ Console should show new version.
 
  ![image](https://github.com/HungryHowies/Zitadel-How-To-Upgrade/assets/22652276/ee93a4f3-7783-4b69-aab0-88d083f07daa)
 
+### Upgrade command for versions 2.37.x thru 2.44.x
 
-NOTE: Another option is at the botton of the  defaults.yaml file this can be set  to true.
+Stop Zitadel’s service.
+
+```
+systemctl stop zitadel
+```
+
+Build/download new Zitadel version and execute the following command.
+
+```
+zitadel setup   --config defaults.yaml --steps steps.yaml --masterkey "MasterkeyNeedsToHave32Characters"  --tlsMode external
+```
+
+This  will show the table/s migration/updates taking place if any.
+
+
+Zitadel version 2.45.x & newer, execute the following command.
+
+```
+zitadel setup  --init-projections=true   --config defaults.yaml --steps steps.yaml --masterkey "MasterkeyNeedsToHave32Characters"  --tlsMode external
+```
+
+Once completed start Zitadel service  using the start command.
+
+
+
+
+NOTE: Zitadel version 2.45.x  or newer has a file option setting. This is located at the botton of the  defaults.yaml file. Set InitProjections, Enable to true as shown below.
 
 ```
 # If a new projection is introduced it will be prefilled during the setup process (if enabled)
