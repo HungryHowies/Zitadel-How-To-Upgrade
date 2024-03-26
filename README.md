@@ -141,7 +141,7 @@ Once completed start Zitadel service  using the start command.
 
 
 
-NOTE: Zitadel version 2.45.x  or newer has a file option setting. This is located at the botton of the  defaults.yaml file. Set InitProjections, Enable to true as shown below.
+NOTE: Zitadel version 2.42.12  or newer has a file option setting. This is located at the botton of the  defaults.yaml file. Set InitProjections, Enable to true as shown below.
 
 ```
 # If a new projection is introduced it will be prefilled during the setup process (if enabled)
