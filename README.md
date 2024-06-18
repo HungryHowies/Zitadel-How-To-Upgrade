@@ -114,7 +114,7 @@ Console should show new version.
 
  ![image](https://github.com/HungryHowies/Zitadel-How-To-Upgrade/assets/22652276/ee93a4f3-7783-4b69-aab0-88d083f07daa)
 
-### Upgrade command for versions 2.37.x thru 2.44.x
+### Upgrade command for versions 2.37.x thru 2.42.12
 
 Stop Zitadel’s service.
 
@@ -131,7 +131,7 @@ zitadel setup   --config defaults.yaml --steps steps.yaml --masterkey "Masterkey
 This  will show the table/s migration/updates taking place if any.
 
 
-Zitadel version 2.45.x & newer, execute the following command.
+Zitadel version 2.42.12 & newer, execute the following command.
 
 ```
 zitadel setup  --init-projections=true   --config defaults.yaml --steps steps.yaml --masterkey "MasterkeyNeedsToHave32Characters"  --tlsMode external
