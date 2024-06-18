@@ -7,6 +7,8 @@ The following example shows how to upgrade a minor version of Zitadel (i.e, v2.4
 This instance does have a systemd service created. More information about this setup can be found [here](https://github.com/HungryHowies/How-To-Build-Zitadel-from-Source) 
 If your trying to upgrade from a earlier version  v2.37.x take a look at this section  below (Upgrade command for versions 2.37.x thru 2.42.12)
 
+Cockroach versions 22.2 < 22.2.11 and 23.1 < 23.1.4 will fail the migration. Use the latest stable version of Cockroachdb.
+
 # Upgrade Zitadel
 
 The following release are shown here https://github.com/zitadel/zitadel/releases 
