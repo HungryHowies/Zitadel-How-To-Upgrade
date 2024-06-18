@@ -5,7 +5,7 @@
 
 The following example shows how to upgrade a minor version of Zitadel (i.e, v2.42.10 to v.2.44.2). This documentation is using souce code but you can use pre-built executable file if need be.
 This instance does have a systemd service created. More information about this setup can be found [here](https://github.com/HungryHowies/How-To-Build-Zitadel-from-Source) 
-If your trying to upgrade from a earlier version  v2.37.x take a look at this section  below (Upgrade command for versions 2.37.x thru 2.44.x)
+If your trying to upgrade from a earlier version  v2.37.x take a look at this section  below (Upgrade command for versions 2.37.x thru 2.42.12)
 
 # Upgrade Zitadel
 
