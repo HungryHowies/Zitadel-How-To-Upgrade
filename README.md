@@ -10,6 +10,7 @@ If your trying to upgrade from a earlier version  v2.37.x take a look at this se
 # Upgrade Zitadel
 
 The following release are shown here https://github.com/zitadel/zitadel/releases 
+
 NOTE:  check breaking changes https://zitadel.com/docs/support/technical_advisory
 
 Steps: 
